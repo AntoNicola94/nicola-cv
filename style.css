@@ -1,0 +1,23 @@
+@charset "utf-8";
+body {
+    background: rgb(191,227,190);
+background: linear-gradient(35deg, rgba(191,227,190,0.8576680672268908) 0%, rgba(208,226,148,1) 13%, rgba(232,230,191,1) 31%, rgba(239,239,238,1) 53%, rgba(229,227,237,1) 82%, rgb(206, 189, 239) 100%);
+}
+header nav ul li a {
+    padding: 10px 20px;
+    background-color:#d0c0f1;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+.BotonFlotante {
+    position: fixed;
+    top: 400px;
+    left: 0px;
+    background-color: #d0c0f1;
+    padding: 10px;
+    opacity: 15;
+}
