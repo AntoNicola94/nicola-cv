@@ -62,6 +62,7 @@ h2 {
 .proyectos img {
     border-radius: 40px;
     margin: 20px 8px 60px 8px;
+    align-content: center;
 }
 .proyectos img:hover {
     transform: scale(1.3);
