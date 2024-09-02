@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Mi Cv Antonella Nicola</title>
 </head>
 <body>
@@ -33,16 +35,9 @@
     <!--Fin del header-->
     <!--Inicio main-->
     <main>
-        <div>
+        <div class="soyanto">
 			<h1>* Hola! Soy Anto Nicola *</h1>
         </div>
-        <img class="ImagenAnto" src="img/20220803_110349.jpg" width="220px" heigth="548px" alt="Imagen Antonella Nicola">
-		<div>
-            <h3>Diseñadora y comunicadora visual</h3>
-        </div>
-        <section>
-            <p>Soy Anto, estudiante de Diseño y comunicación visual. Me declaro fan de viajar a donde sea para coleccionar atardeceres.</p>
-        </section>
         <!--Botón flotante-->
         <div class="BotonFlotante">
             <a href="https://wa.me/+5491160169957" target="_blank"> <img src="img/whatsapp-fill-svgrepo-com.svg" width="30 px" height="30 px" alt="ícono de teléfono"></a>
@@ -50,33 +45,36 @@
         </div>
         <!--Fin boton flotante-->
         <section id="sobremi">
-            <article>
+            <article class="sobremi">
+                <p>Mi nombre es Antonella Nicola, soy estudiante de la carrera Diseño y comunicación visual en la Universidad Nacional de Lanús, esta es mi segunda carrera ya que soy productora integral de televisión</p>
+                <p>Actualmente trabajo como auxiliar de gerencia en Laquimar y soy diseñadora para Tateti </p>
+                <p>Soy fan del rock nacional, de bordar y hacer alfarería en torno</p>
+            </article>
+            <article class="aboutme">
                 <h2>Experiencia laboral</h2>
-                <h4>Asistente de gerencia</h4>
-                <h5>Laquimar SACIF</h5>
-                <p>2012-Actualidad</p>
-                <ul>
-                    <li>Análisis de cuentas corrientes y conciliaciones bancarias</li>
-                    <li>Generación de cotizaciones y pedidos</li>
-                    <li>Gestión de facturación y cobranzas</li>
-                    <li>Arqueo y control de caja chica</li>
-                </ul>
-            </article>
-        </section>
-        <section>
-            <article>
-                <h4>Diseñadora</h4>
-                <h5>Asociación civil grupo tateti</h5>
-                <p>2023-Actualidad</p>
-                <ul>
-                    <li>Diseño de piezas de folletería</li>
-                    <li>Diseño y de piezas para redes sociales</li>
-                    <li>Edición simple de videos</li>
-                    <li>Armado de presentaciones</li>
-                </ul>
-            </article>
-        </section>
-        <section>
+                <div class="listasaboutme">
+                    <h4>Asistente de gerencia</h4>
+                    <h5>Laquimar SACIF</h5>
+                    <p>2012-Actualidad</p>
+                    <ul>
+                        <li>Análisis de cuentas corrientes y conciliaciones bancarias</li>
+                        <li>Generación de cotizaciones y pedidos</li>
+                        <li>Gestión de facturación y cobranzas</li>
+                        <li>Arqueo y control de caja chica</li>
+                    </ul>
+                </div>
+                <div class="tateti">
+                    <h4>Diseñadora</h4>
+                    <h5>Asociación civil grupo tateti</h5>
+                    <p>2023-Actualidad</p>
+                    <ul>
+                        <li>Diseño de piezas de folletería</li>
+                        <li>Diseño y de piezas para redes sociales</li>
+                        <li>Edición simple de videos</li>
+                        <li>Armado de presentaciones</li>
+                    </ul>
+                </div>
+            </article>        
             <article>
                 <h2>Formación</h2>
                 <h5>Lic. Diseño y comunicación visual</h5>
@@ -126,10 +124,13 @@
         <section id="proyectos">
             <article class="proyectos">
                 <h2>Proyectos</h2>
-                <img src="img/AFICHE sobra el morfi.png" width="240 px" alt="Tapa de libro la esencia de las cosas">
-                <img src="img/MOCKUP TAPA Y CONTRA@0,5x.png" width="240 px" alt="Tapa y contratapa libro brenda frank">
-                <img src="img/Pantallas mockup FINAL ui.png" width="240 px" alt="Pantallas naranja x">
-                <img src="img/Pantallas mockup FINAL uxui.png" width="240px" alt="Pantallas Yo dono">
+                <div>
+                <!--falta linkear el de picoteo-->
+                    <img src="img/mockuptazapicoteo.png" alt="Taza con leyenda tengo el corazón con agujeritos">
+                    <a href="https://www.behance.net/gallery/180211243/Catalogo-de-artista-Diseno-editorial" target="_blank"><img src="img/tapaycontratapabrenda.png" alt="Tapa y contratapa libro brenda frank"></a>
+                    <a href="https://www.behance.net/gallery/143688175/Diseno-UxUi-Yo-Dono-Proyecto-final-Coderhouse?tracking_source=project_owner_other_projects" target="_blank"><img src="img/pantallas mockup uxui.png" alt="Pantallas sobre aplicación yo dono"></a>
+                    <a href="https://www.behance.net/gallery/193714021/Naranja-X-Curso-diseno-de-interfaz-de-usuario-UTN" target="_blank"> <img src="img/pantallas mockup  ui.png" alt="Pantallas sobre aplicación naranja x"></a>
+                </div>
             </article>
         </section>
     </main> 
