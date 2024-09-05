@@ -3,6 +3,7 @@ body {
     background: rgb(180, 174, 191);
 background: linear-gradient(35deg, rgb(170, 150, 197) 0%, rgb(205, 194, 228) 19%, rgba(255,255,255,1) 36%, rgba(239,239,238,1) 53%, rgba(229,227,237,1) 82%, rgba(208,192,241,1) 100%);
 }
+/*NAV BAR*/
 .botonera {
     padding: 40px;
     display: flex;
@@ -15,7 +16,7 @@ background: linear-gradient(35deg, rgb(170, 150, 197) 0%, rgb(205, 194, 228) 19%
     background-color: #fff;
     padding: 10px 60px;
     border-radius: 40px;
-    transition: transform 0.2s ease;
+    transition: transform 0.5s ease;
     font-family: "DM Mono", monospace;
     font-weight: 500;
     font-style: normal;
@@ -32,14 +33,19 @@ nav ul li {
 ul {
     list-style: none;
 }
+/*FIN NAV BAR*/
+/*BOTON FLOTANTE*/
 .BotonFlotante {
     position: fixed;
     top: 400px;
-    left: 0px;
+    left: 0px;  
     background-color: #d0c0f1;
     padding: 10px;
     opacity: 15;
+    border-radius: 40px;
+    border: 1px solid rgb(132, 17, 209);
 }
+/*FIN BOTON FLOTANTE*/
 h1{
     font-family: "DM Mono", monospace;
     font-weight: 400;
@@ -92,7 +98,7 @@ h2 {
     font-weight: weight;
     font-style: normal;
 }
-.aboutme {
+.aboutme,.formacion, .cursos {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
@@ -106,7 +112,7 @@ h2 {
     background-color: #764894;
     padding: 20px 20px;
     border-radius: 40px;
-    margin: 60px;
+    margin: 70px;
     display: flex;
     align-items: center;
 }
@@ -118,14 +124,32 @@ h2 {
     background-color: #f8f8f8;
     padding: 20px 20px;
     border-radius: 40px;
-    margin: 70px;
+    margin: 50px;
     display: flex; 
     flex-direction: column;
     border: 1px solid rgb(132, 17, 209);
     box-shadow: 0 0 5px #8246e969;
+    width: 38%;
+    gap: 10px;
 }
-.listasaboutme h4 {
+.listasaboutme h3 {
+    font-size: 25px;
+}
+.listasaboutme a {
     font-size: 20px;
+    text-decoration: none;
+    color: #764894
+}
+.listasaboutme a:hover{
+    background-color:#cab2e958;
+    border-radius: 40px;
+}
+.laquitiempo{
+    font-size: 17px;
+}
+.listlaqui{
+    font-size: 13px;
+    padding: 10px;
 }
 .tateti {
     font-family: "DM Mono", monospace;
@@ -135,21 +159,169 @@ h2 {
     background-color: #f8f8f8;
     padding: 20px 20px;
     border-radius: 40px;
-    margin: 70px;
+    margin: 50px;
     display: flex; 
     flex-direction: column;
     border: 1px solid rgb(132, 17, 209);
     box-shadow: 0 0 5px #8246e969;
     width: 38%;
+    gap: 10px;
 }
-.tateti h4{
+.tateti h3{
+    font-size: 25px;
+}
+.tateti a {
     font-size: 20px;
+    text-decoration: none;
+    color: #764894
+}
+.tatetitiempo{
+    font-size: 17px;
+}
+.listastateti {
+    font-size: 13px;
+    padding: 10px;
+}
+.tateti a:hover{
+    background-color:#cab2e958;
+    border-radius: 40px;
+}
+.formacion h2 {
+    font-size: 20px;
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    color: #f8f8f8;
+    text-align: center;
+    background-color: #764894;
+    padding: 60px ;
+    border-radius: 40px;
+    margin: 70px;
+    display: flex;
+    align-items: center;
+}
+.diseñoycom,.tea {
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    color: #764894;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px 20px;
+    border-radius: 40px;
+    margin: 50px;
+    display: flex; 
+    flex-direction: column;
+    border: 1px solid rgb(132, 17, 209);
+    box-shadow: 0 0 5px #8246e969;
+    width: 38%;
+    gap: 10px;
+}
+.diseñoycom h3 {
+    font-size: 25px;
+}
+.diseñoycom h5{
+    font-size: 17px;
+}
+.diseñoycom p{
+    font-size: 17px;
+    padding: 10px;  
+}
+.tea h3 {
+    font-size: 25px;
+}
+.tea h5{
+    font-size: 17px;
+}
+.tea p{
+    font-size: 17px;
+    padding: 10px;  
+}
+.cursos h2{
+    font-size: 20px;
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    color: #f8f8f8;
+    text-align: center;
+    background-color: #764894;
+    padding: 60px ;
+    border-radius: 40px;
+    margin: 70px;
+    display: flex;
+    align-items: center;
+}
+.desarrollo, .diseñoutn, .uxui {
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    color: #764894;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 40px;
+    display: flex; 
+    flex-direction: column;
+    border: 1px solid rgb(132, 17, 209);
+    box-shadow: 0 0 5px #8246e969;
+    width: 38%;
+    gap: 10px;
+}
+.cursos h3{
+    font-size: 25px;
+}
+.cursos h5{
+    font-size: 17px;
+}
+.cursos p{
+    font-size: 17px;
+}
+.habilidades {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.habilidades h2 {
+    font-size: 20px;
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    color: #f8f8f8;
+    text-align: center;
+    background-color: #764894;
+    padding: 40px ;
+    border-radius: 40px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+.habilidadeslista {
+    margin: 20px;
+    align-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    border: 1px solid rgb(132, 17, 209);
+}
+.proyectos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.proyectos h2 {
+    font-size: 20px;
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    color: #f8f8f8;
+    text-align: center;
+    background-color: #764894;
+    padding: 40px ;
+    border-radius: 40px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
 }
 .proyectos img {
-    margin: 20px 8px 60px 8px;
+    margin: 20px;
     align-content: center;
     cursor: pointer;
-    padding: 30px;
+    padding: 20px;
     background-color: #ece8f3;
     border-radius: 40px;
 }
@@ -177,4 +349,8 @@ footer p {
     padding: 5px 20px;
     font-size: 10px;
 }
+.logoscontacto a:hover{
+    filter: opacity(.6);
+}
+
 
