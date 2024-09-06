@@ -46,6 +46,7 @@ ul {
     border: 1px solid rgb(132, 17, 209);
 }
 /*FIN BOTON FLOTANTE*/
+/*Inicio de main*/
 h1{
     font-family: "DM Mono", monospace;
     font-weight: 400;
@@ -69,20 +70,19 @@ h1{
     display: flex; 
 }
 .soyanto {
-    background-image: url(img/20220803_110349.jpg);
+    background-image: url(img/imagenantonicola.jpg);
     height: 100vh;
     display: flex;
     background-size: cover;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-content: space-between;
     justify-content: space-between;
     align-items: flex-start;
 }
 .sobremi {
     font-size: 20px;
     font-family: "DM Mono", monospace;
-    font-weight: 400;
+    font-weight: 500;
     color: #f8f8f8;
     text-align: center;
     background-color: #7548948a;
@@ -106,7 +106,7 @@ h2 {
 .aboutme h2 {
     font-size: 20px;
     font-family: "DM Mono", monospace;
-    font-weight: 400;
+    font-weight: 500;
     color: #f8f8f8;
     text-align: center;
     background-color: #764894;
@@ -118,7 +118,7 @@ h2 {
 }
 .listasaboutme {
     font-family: "DM Mono", monospace;
-    font-weight: 400;
+    font-weight: 500;
     color: #764894;
     text-align: center;
     background-color: #f8f8f8;
@@ -146,10 +146,12 @@ h2 {
 }
 .laquitiempo{
     font-size: 17px;
+    font-weight: 500;
 }
 .listlaqui{
     font-size: 13px;
     padding: 10px;
+    font-weight: 500;
 }
 .tateti {
     font-family: "DM Mono", monospace;
@@ -177,10 +179,12 @@ h2 {
 }
 .tatetitiempo{
     font-size: 17px;
+    font-weight: 500;
 }
 .listastateti {
     font-size: 13px;
     padding: 10px;
+    font-weight: 500;
 }
 .tateti a:hover{
     background-color:#cab2e958;
@@ -189,7 +193,7 @@ h2 {
 .formacion h2 {
     font-size: 20px;
     font-family: "DM Mono", monospace;
-    font-weight: 400;
+    font-weight: 500;
     color: #f8f8f8;
     text-align: center;
     background-color: #764894;
@@ -224,6 +228,7 @@ h2 {
 .diseñoycom p{
     font-size: 17px;
     padding: 10px;  
+    font-weight: 500;
 }
 .tea h3 {
     font-size: 25px;
@@ -233,12 +238,13 @@ h2 {
 }
 .tea p{
     font-size: 17px;
-    padding: 10px;  
+    padding: 10px; 
+    font-weight: 500; 
 }
 .cursos h2{
     font-size: 20px;
     font-family: "DM Mono", monospace;
-    font-weight: 400;
+    font-weight: 500;
     color: #f8f8f8;
     text-align: center;
     background-color: #764894;
@@ -272,48 +278,50 @@ h2 {
 }
 .cursos p{
     font-size: 17px;
+    font-weight: 500;
 }
 .habilidades {
     display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    margin: 25px;
 }
 .habilidades h2 {
     font-size: 20px;
     font-family: "DM Mono", monospace;
-    font-weight: 400;
+    font-weight: 500;
     color: #f8f8f8;
     text-align: center;
     background-color: #764894;
     padding: 40px ;
     border-radius: 40px;
-    margin: 30px;
+    margin: 40px 70px;
     display: flex;
     align-items: center;
 }
 .habilidadeslista {
-    margin: 20px;
+    margin: 40px 70px;
     align-content: center;
-    padding: 20px;
+    padding: 50px;
     background-color: #ffffff;
     border-radius: 40px;
     border: 1px solid rgb(132, 17, 209);
+    box-shadow: 0 0 5px #8246e969;
 }
 .proyectos {
     display: flex;
-    justify-content: center;
     padding-bottom: 30px;
+    margin: 25px;
 }
 .proyectos h2 {
     font-size: 20px;
     font-family: "DM Mono", monospace;
-    font-weight: 400;
+    font-weight: 500;
     color: #f8f8f8;
     text-align: center;
     background-color: #764894;
     padding: 40px ;
     border-radius: 40px;
-    margin: 30px;
+    margin: 40px;
     display: flex;
     align-items: center;
 }
@@ -321,7 +329,7 @@ h2 {
     margin: 20px;
     align-content: center;
     cursor: pointer;
-    padding: 20px;
+    padding: 50px;
     background-color: #ece8f3;
     border-radius: 40px;
 }
@@ -331,6 +339,8 @@ h2 {
     border-radius: 40px;
     filter: opacity(.6);
 }
+/*Fin de main*/
+/*Inicio de footer*/
 footer {
     background-color: #9882ba6b;
     font-family: "DM Mono", monospace;
@@ -352,5 +362,5 @@ footer p {
 .logoscontacto a:hover{
     filter: opacity(.6);
 }
-
+/*Fin de footer*/
 
