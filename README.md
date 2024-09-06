@@ -4,5 +4,6 @@ Desarrollo de currículum vitae. Proyecto realizado para la materia Computación
 
 Información del proyecto: 
 - Resolución: 1920x1080
+- Visual studio code
 
 Gracias por leer 👨‍💻
